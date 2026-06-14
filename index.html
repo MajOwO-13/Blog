@@ -6,41 +6,107 @@
   <title>Archivo de Majo</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>Archivo de Majo</h1>
-    <p>Un espacio para escribir, investigar, pensar y desfogarme.</p>
-  </header>
+  <main class="page">
 
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="posts/primer-post.html">Posts</a>
-    <a href="amigos/template.html">Template amigos</a>
-  </nav>
-
-  <main>
-    <section>
-      <h2>Últimos posts</h2>
-
-      <article>
-        <h3><a href="posts/primer-post.html">Mi primer post</a></h3>
-        <p>Una pequeña entrada para empezar este espacio.</p>
-      </article>
+    <section class="hero">
+      <div class="page-icon">🌷</div>
+      <h1>Archivo de Majo</h1>
+      <p class="subtitle">
+        Un espacio para escribir, investigar, pensar, guardar cosas bonitas y desfogarme.
+      </p>
     </section>
 
-    <section>
-      <h2>Otros blogs bonitos</h2>
-      <ul>
-        <li><a href="#">Blog de una amiga</a></li>
-        <li><a href="#">Archivo de inspiración</a></li>
-      </ul>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="#posts">Posts</a>
+      <a href="#investigaciones">Investigaciones</a>
+      <a href="#ocio">Ocio</a>
+      <a href="#otros-blogs">Otros blogs</a>
+    </nav>
+
+    <section class="cover-card">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWd5YmpuYnB3MmJ1YmtlbmJ4Y3R6M3N1dDhmMmN2ZXhwZTN3MW92NSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26AHONQ79FdWZhAI0/giphy.gif" alt="gif bonito">
     </section>
+
+    <section class="section" id="posts">
+      <div class="section-title">
+        <span>📝</span>
+        <h2>Últimos posts</h2>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <p class="tag">diario</p>
+          <h3><a href="posts/primer-post.html">Mi primer post</a></h3>
+          <p>Una pequeña entrada para empezar este espacio.</p>
+        </article>
+
+        <article class="card">
+          <p class="tag">ideas</p>
+          <h3>Lista de cosas que quiero investigar</h3>
+          <p>Notas sueltas, preguntas raras y temas que me dan curiosidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="investigaciones">
+      <div class="section-title">
+        <span>🔎</span>
+        <h2>Investigaciones</h2>
+      </div>
+
+      <div class="list-block">
+        <a href="#">Cómo las emociones viven en el cuerpo</a>
+        <a href="#">Notas sobre tecnología, nube y automatización</a>
+        <a href="#">Cosas que aprendo mientras hago proyectos</a>
+      </div>
+    </section>
+
+    <section class="section" id="ocio">
+      <div class="section-title">
+        <span>🎧</span>
+        <h2>Ocio bonito</h2>
+      </div>
+
+      <div class="columns">
+        <div class="mini-card">
+          <h3>Libros</h3>
+          <p>Lecturas, frases, pendientes y obsesiones literarias.</p>
+        </div>
+
+        <div class="mini-card">
+          <h3>Música</h3>
+          <p>Playlists, techno, canciones que me acompañan y moods.</p>
+        </div>
+
+        <div class="mini-card">
+          <h3>Viajes</h3>
+          <p>Itinerarios, recuerdos, lugares y mapas mentales.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="otros-blogs">
+      <div class="section-title">
+        <span>🪐</span>
+        <h2>Otros blogs bonitos</h2>
+      </div>
+
+      <div class="list-block">
+        <a href="#">Blog de jawiwo</a>
+        <a href="#">Archivo de inspiración</a>
+        <a href="#">Template blog</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>Hecho con HTML, café y esperanza en el futuro</p>
+    </footer>
+
   </main>
-
-  <footer>
-    <p>Hecho con HTML, café y ganas de tener una esquina propia en internet.</p>
-  </footer>
 
 </body>
 </html>
